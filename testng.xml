@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/lambdatest_testng_sample/java-testng-selenium/src/test/java/com/tests/allure" parallel = "classes">
+        <classes>
+            <class name="com.tests.allure.NewTest2"><methods><include name="f2"/></methods></class>
+            <class name="com.tests.allure.TestNGTodo1"><methods><include name="basicTest"/></methods></class>
+            <class name="com.tests.allure.TestNGTodo2"><methods><include name="basicTest"/></methods></class>
+            <class name="com.tests.allure.TestNGTodo3"><methods><include name="basicTest"/></methods></class>
+            <class name="com.tests.allure.TestNGTodo4"><methods><include name="basicTest"/></methods></class>
+            <class name="com.tests.allure.TestNGTodo5"><methods><include name="basicTest"/></methods></class>
+            <class name="com.tests.allure.TestNGTodoMobile"><methods><include name="basicTest"/></methods></class>
+        </classes>
+    </test>
+</suite>
